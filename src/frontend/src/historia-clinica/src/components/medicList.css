@@ -1,0 +1,49 @@
+
+.medic-list-container {
+  width: 80%;
+  margin: 20px auto; /* Espacio en los bordes izquierdo y derecho */
+  padding: 20px; /* Espacio en la parte superior, inferior, izquierda y derecha */
+  overflow-y: auto;
+  max-height: calc(100vh - 200px); /* Altura máxima para permitir el scroll */
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #a48294;
+}
+
+.create-medic-button {
+  background-color: #a48294;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.create-medic-button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}

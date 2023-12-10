@@ -1,0 +1,54 @@
+
+.create-medic-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-height: 500px; /* Establece una altura máxima para activar el scroll */
+  overflow-y: auto;
+}
+
+.create-medic-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.create-medic-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-medic-container div {
+  margin-bottom: 10px;
+}
+
+.create-medic-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.create-medic-container input[type="text"],
+.create-medic-container input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-medic-container button {
+  background-color: #a48294;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-medic-container button:hover {
+  background-color: #856f7c;
+}

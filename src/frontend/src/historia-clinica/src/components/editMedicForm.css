@@ -1,0 +1,79 @@
+.edit-medic-form-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.edit-medic-form-container form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.close-medic-button:hover {
+  background-color: #f6070a;
+}
+.edit-medic-button:hover {
+  background-color: #45a049;
+}
+
+.edit-medic-button {
+  background-color: #a48294;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-medic-button {
+  background-color: #f6070a;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.edit-medic-button button {
+  background-color: #a48294; /* Cambia el color de fondo del botón "Actualizar" */
+  color: white; /* Cambia el color del texto del botón "Actualizar" */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.close-medic-button {
+  background-color: #a48294; /* Cambia el color de fondo del botón "Cerrar" */
+}
